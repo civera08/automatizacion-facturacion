@@ -5,9 +5,6 @@ Este proyecto demuestra un flujo completo de automatización para tareas adminis
 - **SQL Server** para almacenamiento de datos  
 - **Python** para extracción, transformación, cálculo y generación de reportes  
 - **Power Automate Desktop** para programación y envío automatizado por correo electrónico  
-- **SQL Server** para almacenamiento de datos
-- **Python** para extracción, transformación, cálculo y generación de reportes
-- **Power Automate Desktop** para programación y envío automatizado por correo electrónico
 
 ---
 
@@ -23,49 +20,52 @@ seguimiento_kpis/
 └── reporte_kpis.xlsx # Archivo de salida generado automáticamente
 ```
 ---
-
 ## Requisitos
 
 - Windows 10/11 Pro con Power Automate Desktop instalado  
 - SQL Server (local o remoto)  
 - Python 3.9 o superior  
-- Librerías requeridas: `pyodbc`, `pandas`, `faker`, `openpyxl`  
+- Librerías Python: `pyodbc`, `pandas`, `faker`, `openpyxl`  
 
-## Instalación de dependencias:
+## Instalación de dependencias
 
-- Windows 10/11 Pro con Power Automate Desktop
-- SQL Server
-- Python 3.9+
-- Librerías: `pyodbc`, `pandas`, `faker`, `openpyxl`
-
-```
+```bash
 pip install -r requirements.txt
-🔁 Automatización del Proceso
-Elimina .xlsx anteriores
+```
+
+## Automatización del Proceso
+Elimina archivos .xlsx antiguos automáticamente
 
 Ejecuta main.py cada lunes a las 9:00 a.m.
 
-Verifica si se generó reporte_kpis.xlsx
+Verifica si se generó correctamente reporte_kpis.xlsx
 
-Envía el archivo por correo con Outlook
-```
+Envía el reporte generado como adjunto por correo usando Outlook
 
 ## Aplicaciones Profesionales
-- Automatización administrativa
-- Reportes dinámicos en Excel
-- Integración Python + SQL + Outlook
-- Orquestación con Power Automate
+Automatización administrativa eficiente
+
+Generación de reportes dinámicos en Excel
+
+Integración fluida entre Python, SQL Server y Outlook
+
+Orquestación de tareas con Power Automate Desktop
 
 ## Indicadores Incluidos
-Indicador	Descripción
-Porcentaje de asistencia	Asistencias vs ausencias por empleado
-Cumplimiento de tareas	Porcentaje de tareas completadas
-Tiempo promedio de respuesta	Tiempo promedio en minutos para atender un ticket
+
+|Indicador	               |Descripción                                   |
+|--------------------------|----------------------------------------------|
+| Porcentaje de asistencia | Asistencias vs. ausencias por empleado       |
+| Cumplimiento de tareas   | Porcentaje de tareas completadas             |
+| Tiempo promedio de respuesta | Tiempo promedio (minutos) para atender un ticket |
 
 ## Contacto
-Email: civera.ds@outlook.com
+Email: civera.ds@outlook.com 
 LinkedIn: https://linkedin.com/in/civera/
 GitHub: https://github.com/civera08
 
 ## Licencia
 Este proyecto está licenciado bajo los términos de la Licencia MIT.
+
+
+---
