@@ -36,11 +36,11 @@ Instalación de dependencias:
 pip install -r seguimiento_kpis/requirements.txt
 ```
 
-📬 Contacto
-César Rivera
-🔗 LinkedIn
-✉️ civera.ds@outlook.com
-🌐 Mi sitio web
+## Contacto
+
+Email: civera.ds@outlook.com
+LinkedIn: https://linkedin.com/in/civera/
+GitHub: https://github.com/civera08
 
 📄 Licencia
 Este proyecto está licenciado bajo los términos de la Licencia MIT.
