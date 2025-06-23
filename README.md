@@ -36,12 +36,11 @@ Instalación de dependencias:
 pip install -r seguimiento_kpis/requirements.txt
 ```
 
-Contacto
+📬 Contacto
 César Rivera
-LinkedIn
-civera.ds@outlook.com
-Mi sitio web
+🔗 LinkedIn
+✉️ civera.ds@outlook.com
+🌐 Mi sitio web
 
-Licencia
-Este repositorio está bajo la Licencia MIT.
-```
+📄 Licencia
+Este proyecto está licenciado bajo los términos de la Licencia MIT.
