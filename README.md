@@ -34,6 +34,8 @@ Instalación de dependencias:
 
 ```bash
 pip install -r seguimiento_kpis/requirements.txt
+```
+
 Contacto
 César Rivera
 LinkedIn
