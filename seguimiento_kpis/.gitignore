@@ -1,0 +1,15 @@
+# Entorno virtual
+venv/
+env/
+
+# Archivos generados por Python
+__pycache__/
+*.py[cod]
+
+# Reporte generado
+reporte_kpis.xlsx
+*.xlsx
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db

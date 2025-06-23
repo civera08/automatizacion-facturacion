@@ -1,0 +1,27 @@
+# Flujo de Automatización con Power Automate Desktop
+
+1. File.Delete Files: C:\RUTA\AL\PROYECTO\seguimiento_kpis\*.xlsx
+   - ON ERROR FileNotFoundError
+     SET NewVar TO AppProcessId
+     THROW ERROR
+
+2. System.RunApplication.RunApplicationAndWaitToComplete
+   - Ejecuta el script main.py con python.exe
+   - WorkingDirectory: seguimiento_kpis
+   - Timeout: 15s
+   - WindowStyle: Hidden
+
+3. Folder.GetFiles
+   - Carpeta: seguimiento_kpis
+   - Filtro: *.xlsx
+   - Verifica si se generó algún archivo
+
+4. IF File.DoesNotExist: *.xlsx
+   - Muestra mensaje: “El script no generó ningún archivo .xlsx…”
+
+5. IF reporte_kpis.xlsx no existe PERO sí hay archivos .xlsx
+   - Muestra mensaje: “El archivo se generó con un nombre diferente…”
+
+6. Outlook.Launch + Outlook.SendEmailThroughOutlook
+   - Envía el reporte reporte_kpis.xlsx
+   - Destinatarios: usuario@mail.com, usuario20@mail.com, ..., (CC/BCC)

@@ -1,0 +1,5 @@
+```txt
+pandas
+pyodbc
+faker
+openpyxl
