@@ -4,7 +4,7 @@ Este repositorio contiene proyectos de automatización enfocados en procesos adm
 
 ---
 
-## 📂 Estructura del Repositorio
+## Estructura del Repositorio
 
 - `seguimiento_kpis/`  
   Proyecto de seguimiento y reporte automatizado de indicadores clave de desempeño (KPIs) administrativos.
@@ -16,7 +16,7 @@ Este repositorio contiene proyectos de automatización enfocados en procesos adm
 
 ## Proyecto: Seguimiento KPIs
 
-Descripción:  
+**Descripción:**  
 Sistema automatizado para extraer datos, calcular KPIs, generar reportes en Excel y enviar por correo automáticamente.
 
 Puedes ver más detalles y la documentación completa dentro de la carpeta `seguimiento_kpis`.
@@ -25,16 +25,15 @@ Puedes ver más detalles y la documentación completa dentro de la carpeta `segu
 
 ## Requisitos generales
 
-- Windows 10/11 con Power Automate Desktop instalado
-- Python 3.9+
-- SQL Server (local o remoto)
-- Librerías Python: pyodbc, pandas, faker, openpyxl
+- Windows 10/11 con Power Automate Desktop instalado  
+- Python 3.9+  
+- SQL Server (local o remoto)  
+- Librerías Python: `pyodbc`, `pandas`, `faker`, `openpyxl`
 
 Instalación de dependencias:
 
 ```bash
 pip install -r seguimiento_kpis/requirements.txt
-```
 
 ## Contacto
 
@@ -42,5 +41,5 @@ Email: civera.ds@outlook.com
 LinkedIn: https://linkedin.com/in/civera/
 GitHub: https://github.com/civera08
 
-📄 Licencia
+## Licencia
 Este proyecto está licenciado bajo los términos de la Licencia MIT.
