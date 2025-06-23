@@ -11,10 +11,9 @@ Este proyecto demuestra un flujo completo de automatización para tareas adminis
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 seguimiento_kpis/
-
 ├── conexion_sql.py # Conexión a SQL Server con pyodbc
 ├── insertar_datos.py # Inserta datos sintéticos con Faker (solo una vez)
 ├── calcular_kpis.py # Calcula indicadores clave por empleado
@@ -22,13 +21,6 @@ seguimiento_kpis/
 ├── main.py # Ejecuta todo el flujo completo
 ├── config.ini # Configuración de conexión a SQL Server
 └── reporte_kpis.xlsx # Archivo de salida generado automáticamente
-├── conexion_sql.py
-├── insertar_datos.py
-├── calcular_kpis.py
-├── generar_reporte.py
-├── main.py
-├── config.ini
-└── reporte_kpis.xlsx
 
 ---
 
