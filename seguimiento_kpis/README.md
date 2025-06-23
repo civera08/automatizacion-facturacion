@@ -12,7 +12,7 @@ Este proyecto demuestra un flujo completo de automatización para tareas adminis
 ---
 
 ## Estructura del Proyecto
-
+```
 seguimiento_kpis/
 ├── conexion_sql.py # Conexión a SQL Server con pyodbc
 ├── insertar_datos.py # Inserta datos sintéticos con Faker (solo una vez)
@@ -21,7 +21,7 @@ seguimiento_kpis/
 ├── main.py # Ejecuta todo el flujo completo
 ├── config.ini # Configuración de conexión a SQL Server
 └── reporte_kpis.xlsx # Archivo de salida generado automáticamente
-
+```
 ---
 
 ## Requisitos
@@ -38,7 +38,7 @@ seguimiento_kpis/
 - Python 3.9+
 - Librerías: `pyodbc`, `pandas`, `faker`, `openpyxl`
 
-```bash
+```
 pip install -r requirements.txt
 🔁 Automatización del Proceso
 Elimina .xlsx anteriores
