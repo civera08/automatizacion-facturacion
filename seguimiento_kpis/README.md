@@ -65,7 +65,7 @@ LinkedIn: https://linkedin.com/in/civera/
 GitHub: https://github.com/civera08
 
 ## Licencia
-Este proyecto está licenciado bajo los términos de la Licencia MIT.
+Este proyecto está licenciado bajo los términos de la [Licencia MIT](./LICENSE)
 
 
 ---
