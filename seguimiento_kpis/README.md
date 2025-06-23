@@ -5,7 +5,6 @@ Este proyecto demuestra un flujo completo de automatización para tareas adminis
 - **SQL Server** para almacenamiento de datos  
 - **Python** para extracción, transformación, cálculo y generación de reportes  
 - **Power Automate Desktop** para programación y envío automatizado por correo electrónico  
-=======
 - **SQL Server** para almacenamiento de datos
 - **Python** para extracción, transformación, cálculo y generación de reportes
 - **Power Automate Desktop** para programación y envío automatizado por correo electrónico
